@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Cihan (Lucia) Ruan
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+#name_pronunciation:Ruan Cihan
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Cihan
+last_name: Ruan
 
 # Status emoji
 status:
@@ -20,92 +20,89 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Ph.D. Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Santa Clara Univerisity
+    url: https://www.scu.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: 'mailto:luciacihanruan@gmail.com'
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/cruan1991
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/cihanruan/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=aNZ84w8AAAAJ&hl=en&oi=ao
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0009-0006-3094-0505
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Image/Video Coding
+  - DNA Storage
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD in Artificial Intelligence
+    institution: Santa Clara University
+    date_start: 2016-09-01
+    date_end: 2025-06-10
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on _DNA Storage of Images: From Pixels to Molecules_. Supervised by [Dr. Nam Ling](https://www.scu.edu/engineering/faculty/ling-nam/). Presented papers at 7 IEEE conferences with the contributions being published in 3 journals.
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      text: 'Read Publications'
+      url: 'https://www.researchgate.net/profile/Cihan-Ruan/research'
+  - area: MS in Computer Science and Engineering
+    institution: Santa Clara University
+    date_start: 2014-9-01
+    date_end: 2016-6-10
     summary: |
-      GPA: 3.8/4.0
+      GPA: 3.3/4.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Image and Video Compression
+      - Big Data
+      - Mobile Application Development
+  - area: BSc Software Engineering
+    institution: Nankai University
+    date_start: 2010-09-01
+    date_end: 2014-6-20
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      GPA: 3.0/4.0
+
+      Third Prize Scholarship (2012-2013)
+#      Courses included:
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Deep Learning Researcher
+    company_name: Futurewei Inc.
+    company_url: 'https://www.futurewei.com/'
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2024-02-01
+    date_end: 2024-05-01
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+      - Developed a transformer-based compression framework with adaptive attention.
+      - Achieved 15% improvement in ultra-low bitrate multimedia applications.
+      - Optimized network with NAS and knowledge distillation (40% model size reduction).
+
+  - position: Project Coordinator
+    company_name: Stanford University, School of Medicine
+    company_url: 'https://med.stanford.edu/'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2023-11-01
+    date_end: Now
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Led early-stage cancer detection research using ML-based 3D biological structure alignment.
+      - Improved PSNR by 8% in STAlign algorithm.
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -116,23 +113,24 @@ skills:
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
+     - name: Deep Learning (TensorFlow, PyTorch)
+        percent: 85
+        icon: brain
+      - name: Computer Vision (OpenCV, Image Processing)
+        percent: 80
+        icon: camera
+      - name: Data Science (SQL, Big Data)
+        percent: 75
+        icon: database
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Baking
         description: ''
-        percent: 60
+        percent: 80
         icon: person-simple-walk
-      - name: Cats
+      - name: Writing
         description: ''
         percent: 100
         icon: cat
@@ -146,7 +144,7 @@ languages:
     percent: 100
   - name: Chinese
     percent: 75
-  - name: Portuguese
+  - name: Japanese
     percent: 25
 
 # Awards.
@@ -154,33 +152,62 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
+  - title: Best Paper Award - IEEE ISCAS
+    url: https://ieee-cas.org/files/ieeecass/2023-07/WiCAS_ISCAS23.pdf
+    date: '2024-05-15'
+    awarder: IEEE ISCAS
+    icon: medal
+    summary: |
+      Awarded **Best Paper** at IEEE ISCAS 2024 for outstanding contributions in 
+      **neural network compression for DNA storage**.
+
+  - title: Machine Learning Specialization
+    url: https://www.coursera.org/specializations/machine-learning
+    date: '2023-12-01'
     awarder: Coursera
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
+      Completed a comprehensive specialization in **Machine Learning and AI**, 
+      covering **Deep Learning, NLP, and Computer Vision**.
+
+  - title: Blockchain Fundamentals Certification
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
     awarder: edX
     icon: edx
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
+      - Developed an in-depth understanding of **Bitcoin, Ethereum, and smart contracts**.
+      - Designed and analyzed **Proof-of-Work alternatives** for blockchain security.
+
+  - title: Deep Learning Nanodegree
+    url: https://www.udacity.com/course/deep-learning-nanodegree--nd101
+    date: '2023-04-15'
+    awarder: Udacity
+    icon: udacity
+    summary: |
+      Completed advanced coursework in **Neural Networks, GANs, and Reinforcement Learning**.
+
+  - title: 'Python for Data Science and Machine Learning'
+    url: https://www.datacamp.com/courses/python-for-data-science
+    date: '2023-01-10'
+    awarder: DataCamp
     icon: datacamp
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Covered **data preprocessing, machine learning model training, and visualization** in Python.
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a **PhD candidate at Santa Clara University**, specializing in **Machine Learning, DNA Storage, and Neural Network Compression**.
+
+### **Research Interests**
+- Neural Network Compression & Video Compression  
+- Transformer-based NLP models (e.g., Cosmo, BERT)  
+- DNA Storage & Error Correction  
+- AI for Biomedical Research  
+
+I have presented papers at **7 IEEE conferences** and published in **3 journals**, with my work recognized in **IEEE VCIP 2023, IEEE ISCAS 2023/2024/2025 and IEEE ICME 2025**.
+
+Currently, I am an **AI Research Intern at Futurewei Inc.**, where I work on **deep learning compression techniques for multimedia applications**.
+
+🚀 **I am actively looking for Machine Learning Engineer roles!** Feel free to check out my [GitHub](https://github.com/cruan1991) and [Google Scholar](https://scholar.google.com/citations?user=aNZ84w8AAAAJ&hl=en&oi=ao)).
