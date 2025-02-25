@@ -98,7 +98,7 @@ work:
     company_url: 'https://med.stanford.edu/'
     company_logo: ''
     date_start: 2023-11-01
-    date_end: Now
+    date_end: ""
     summary: |
       Responsibilities include:
       - Led early-stage cancer detection research using ML-based 3D biological structure alignment.
