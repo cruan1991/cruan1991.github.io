@@ -59,8 +59,8 @@ education:
       url: 'https://www.researchgate.net/profile/Cihan-Ruan/research'
   - area: MS in Computer Science and Engineering
     institution: Santa Clara University
-    date_start: 2014-9-01
-    date_end: 2016-6-10
+    date_start: 2014-09-01
+    date_end: 2016-06-10
     summary: |
       GPA: 3.3/4.0
 
@@ -71,15 +71,12 @@ education:
   - area: BSc Software Engineering
     institution: Nankai University
     date_start: 2010-09-01
-    date_end: 2014-6-20
+    date_end: 2014-06-20
     summary: |
       GPA: 3.0/4.0
 
       Third Prize Scholarship (2012-2013)
-#      Courses included:
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 work:
   - position: Deep Learning Researcher
     company_name: Futurewei Inc.
