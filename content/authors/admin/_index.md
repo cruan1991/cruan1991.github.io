@@ -107,37 +107,31 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: "Technical Skills"
     items:
-      - name: Python
-        description: ''
-        percent: 80
+      - name: "Python"
+        description: "Experienced in data processing and ML frameworks"
+        percent: 90
         icon: code-bracket
-     - name: Deep Learning (TensorFlow, PyTorch)
+      - name: "Deep Learning"
+        description: "TensorFlow, PyTorch, Model Compression"
         percent: 85
         icon: brain
-      - name: Computer Vision (OpenCV, Image Processing)
+      - name: "Computer Vision"
+        description: "OpenCV, Image Processing"
         percent: 80
         icon: camera
-      - name: Data Science (SQL, Big Data)
-        percent: 75
-        icon: database
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+  - name: "Hobbies"
     items:
-      - name: Baking
-        description: ''
-        percent: 80
+      - name: "Hiking"
+        description: "Enjoys exploring nature trails"
+        percent: 60
         icon: person-simple-walk
-      - name: Writing
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
+      - name: "Photography"
+        description: "Capturing moments with a DSLR"
         percent: 80
         icon: camera
+
 
 languages:
   - name: English
