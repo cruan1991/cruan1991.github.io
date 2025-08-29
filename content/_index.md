@@ -32,14 +32,11 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'About Me'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I'm a self-proclaimed "Pixel Picasso" specializing in image and video processing and compression. My goal is to make sure your eyes never have to suffer through a pixelated mess again! Plus, who doesn't love a good cat video in crystal-clear HD? Let's work together to bring some sharpness back into the world, one image and video at a time.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
     design:
       columns: '1'
   - block: collection
