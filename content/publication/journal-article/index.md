@@ -1,16 +1,22 @@
 ---
-title: "An example journal article"
+title: "DSI-ResCNN: A Framework Enhancing the Error-Tolerance Capacity of DNA Storage for Images"
 authors:
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+- Liang Yang
+- Rongduo Han
+- Shan Gao
+- Haoyu Wu
+- Qiming Yuan
+- Yanting Guo
+- Nam Ling 
+#author_notes:
+#- "Equal contribution"
+#- "Equal contribution"
+date: "2025-03-10T00:00:00Z"
+doi: "10.1109/ACCESS.2025.3549673"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-03-10T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,23 +24,32 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*IEEE Access (Volume: 13)*"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Traditional silicon-based storage technologies have reached a bottleneck with the dramatic increase in global data storage demands. High energy consumption, limited natural resources, and environmental concerns are some of the key reasons. DNA storage emerges as a promising alternative method, offering relatively high density and long-term stability. However, this storage method still faces considerable challenges. One such challenge pertains to errors introduced during the DNA storage process, which require the development of information subsystems with enhanced error-tolerance capabilities. In the present study, we propose the integration of two modules into information subsystems to enhance their error-tolerance capacities for DNA storage of images. These two modules, namely the residual convolutional neural network (ResCNN) module and the DNA sequence dropout control (SDC) module, collectively constitute a framework, named DNA storage of images with residual CNN (DSI-ResCNN). DSI-ResCNN enhances the fidelity of images recovered from DNA sequences generated under error-prone conditions, thereby substantiating its potential as an effective solution for mitigating the adverse impacts of errors.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis #placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+
+# Display this page in the Featured widget?
+featured: true
+share: false        # ← 关闭本页分享按钮
+sharing: false      # ← 兼容旧版本主题，可一起写
 
 tags:
-- Source Themes
-featured: false
+  - DNA Storage
+  - Neural Network
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+#tags:
+#- Source Themes
+#featured: false
+
+links:
+- name: More Details
+  url: https://ieeexplore.ieee.org/abstract/document/10918652
+url_pdf: 
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -45,7 +60,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -63,13 +78,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

@@ -15,9 +15,9 @@ authors:
   - Nam Ling
 
 # Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+#author_notes:
+#  - 'Equal contribution'
+#  - 'Equal contribution'
 
 date: '2025-06-27T00:00:00Z'
 doi: '10.1109/ISCAS56072.2025.11044311'
