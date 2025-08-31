@@ -26,7 +26,6 @@ jobs:
     - uses: actions/setup-node@v4
       with:
         node-version: "20"
-        cache: "npm"
 
     - name: Install Node deps
       run: npm i -D tailwindcss postcss postcss-cli autoprefixer pagefind --ignore-scripts
