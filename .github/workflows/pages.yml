@@ -29,13 +29,10 @@ jobs:
         cache: "npm"
 
     - name: Install Node deps
-      run: |
-        if [ -f package-lock.json ]; then
-          npm ci
-        else
-          npm i -D tailwindcss postcss postcss-cli autoprefixer pagefind
-        fi
-
+      run: npm i -D tailwindcss postcss postcss-cli autoprefixer pagefind --ignore-scripts
+        
+        
+          
     - uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: "0.148.2"
