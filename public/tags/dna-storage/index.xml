@@ -1,1 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DNA Storage | Hugo Academic CV Theme</title><link>https://cruan1991.github.io/tags/dna-storage/</link><atom:link href="https://cruan1991.github.io/tags/dna-storage/index.xml" rel="self" type="application/rss+xml"/><description>DNA Storage</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate><image><url>https://cruan1991.github.io/media/icon_hu_645fa481986063ef.png</url><title>DNA Storage</title><link>https://cruan1991.github.io/tags/dna-storage/</link></image><item><title>HybridFlow-DNA: A Deep Generative Compression Framework for DNA Storage of Images</title><link>https://cruan1991.github.io/publication/conference-paper/</link><pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate><guid>https://cruan1991.github.io/publication/conference-paper/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DNA Storage | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/dna-storage/</link>
+      <atom:link href="http://localhost:1313/tags/dna-storage/index.xml" rel="self" type="application/rss+xml" />
+    <description>DNA Storage</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>DNA Storage</title>
+      <link>http://localhost:1313/tags/dna-storage/</link>
+    </image>
+    
+    <item>
+      <title>HybridFlow-DNA: A Deep Generative Compression Framework for DNA Storage of Images</title>
+      <link>http://localhost:1313/publication/iscas2025/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/iscas2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poster — HybridFlow-DNA: A Deep Generative Compression Framework for DNA Storage of Images</title>
+      <link>http://localhost:1313/event/example/</link>
+      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DSI-ResCNN: A Framework Enhancing the Error-Tolerance Capacity of DNA Storage for Images</title>
+      <link>http://localhost:1313/publication/access2025/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/access2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust DNA Image Storage Decoding with Residual CNN</title>
+      <link>http://localhost:1313/publication/iscas2024/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/iscas2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient DNA-Based Image Coding and Storage</title>
+      <link>http://localhost:1313/publication/iscas2023/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/iscas2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

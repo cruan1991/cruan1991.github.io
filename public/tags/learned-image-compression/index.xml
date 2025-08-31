@@ -1,1 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learned Image Compression | Hugo Academic CV Theme</title><link>https://cruan1991.github.io/tags/learned-image-compression/</link><atom:link href="https://cruan1991.github.io/tags/learned-image-compression/index.xml" rel="self" type="application/rss+xml"/><description>Learned Image Compression</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 22 Apr 2025 00:00:00 +0000</lastBuildDate><image><url>https://cruan1991.github.io/media/icon_hu_645fa481986063ef.png</url><title>Learned Image Compression</title><link>https://cruan1991.github.io/tags/learned-image-compression/</link></image><item><title>TVC: Tokenized Video Compression with Ultra-Low Bitrate</title><link>https://cruan1991.github.io/publication/preprint/</link><pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate><guid>https://cruan1991.github.io/publication/preprint/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learned Image Compression | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/learned-image-compression/</link>
+      <atom:link href="http://localhost:1313/tags/learned-image-compression/index.xml" rel="self" type="application/rss+xml" />
+    <description>Learned Image Compression</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 10 May 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Learned Image Compression</title>
+      <link>http://localhost:1313/tags/learned-image-compression/</link>
+    </image>
+    
+    <item>
+      <title>Poster — HybridFlow-DNA: A Deep Generative Compression Framework for DNA Storage of Images</title>
+      <link>http://localhost:1313/event/example/</link>
+      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TVC: Tokenized Video Compression with Ultra-Low Bitrate</title>
+      <link>http://localhost:1313/publication/arxiv2025/</link>
+      <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/arxiv2025/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
