@@ -30,7 +30,13 @@ jobs:
     - name: Install Node deps
       run: |
         npm init -y
-        npm i -D tailwindcss postcss postcss-cli autoprefixer pagefind --omit=optional --ignore-scripts  
+        - name: Install Node deps
+  run: |
+    npm init -y
+    npm i -D tailwindcss postcss postcss-cli autoprefixer pagefind --ignore-scripts
+  env:
+    FORCE_COLOR: 0
+    npm_config_optional: false
         
           
     - uses: peaceiris/actions-hugo@v3
