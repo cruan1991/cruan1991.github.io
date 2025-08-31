@@ -11,46 +11,42 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          submodules: true
-          fetch-depth: 0
+    - uses: actions/checkout@v4
+      with:
+        submodules: true
+        fetch-depth: 0
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
+    - uses: actions/setup-node@v4
+      with:
+        node-version: "20"
+        cache: "npm"
 
-      - name: Install Node deps (Tailwind/PostCSS/Pagefind)
-        run: |
-          if [ -f package-lock.json ]; then
-            npm ci
-          else
-            npm i -D tailwindcss postcss postcss-cli autoprefixer pagefind
-          fi
+    - name: Install Node deps
+      run: |
+        if [ -f package-lock.json ]; then
+          npm ci
+        else
+          npm i -D tailwindcss postcss postcss-cli autoprefixer pagefind
+        fi
 
-      - uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: "0.148.2"
-          extended: true
+    - uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: "0.148.2"
+        extended: true
 
-      - name: Build Hugo
-        run: hugo --minify --gc
+    - name: Build
+      run: hugo --minify
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
+    - uses: actions/upload-pages-artifact@v3
+      with:
+        path: public
 
   deploy:
     needs: build
@@ -59,5 +55,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+    - id: deployment
+      uses: actions/deploy-pages@v4
